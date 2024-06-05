@@ -10,25 +10,30 @@
             margin: 0;
             padding: 0;
         }
-        header, footer {
-            background-color: #333;
+        header {
+            background-color: gold;
             color: #fff;
             text-align: center;
             padding: 20px 0;
         }
         nav {
-            display: inline-block;
-            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
         nav a {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            font-weight: bold;
+        }
+        .logo {
+            margin-right: auto;
         }
         .sidebar {
             float: left;
             width: 20%;
-            background-color: #f4f4f4;
+            background-color: gold;
             padding: 20px;
         }
         .main-content {
@@ -40,25 +45,33 @@
             width: 100%;
             margin-bottom: 20px;
         }
+        footer {
+            background-color: goldenrod;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
         footer p {
             margin: 5px 0;
         }
         .logo img {
-            width: 100px; /* Adjust the width to your desired size */
+            width: 80px; /* Adjust the width of the logo */
         }
     </style>
 </head>
 <body>
     <header>
-        <div class="logo">
-            <img src="logo.png" alt="Logo">
-        </div>
         <nav>
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
-            <a href="#">Link 4</a>
-            <a href="#">Link 5</a>
+            <div class="logo">
+                <img src="logo(2).png" alt="Logo">
+            </div>
+            <div>
+                <a href="#">link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                <a href="#">Link 4</a>
+                <a href="#">Link 5</a>
+            </div>
         </nav>
     </header>
 
@@ -74,33 +87,33 @@
 
     <div class="main-content">
         <div class="image">
-            <img src="image1.jpg" alt="Image 1">
+            <img src="image.png" alt="Image 1">
             <p>Image 1 Description</p>
         </div>
         <div class="image">
-            <img src="image2.jpg" alt="Image 2">
+            <img src="image.png" alt="Image 2">
             <p>Image 2 Description</p>
         </div>
         <div class="image">
-            <img src="image3.jpg" alt="Image 3">
+            <img src="image.png" alt="Image 3">
             <p>Image 3 Description</p>
         </div>
         <div class="image">
-            <img src="image4.jpg" alt="Image 4">
+            <img src="image.png" alt="Image 4">
             <p>Image 4 Description</p>
         </div>
         <div class="image">
-            <img src="image5.jpg" alt="Image 5">
+            <img src="image.png" alt="Image 5">
             <p>Image 5 Description</p>
         </div>
     </div>
 
     <footer>
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="logo(2).png" alt="Logo">
         </div>
-        <p>Web Designer: Navarez, Van Ryan M.</p>
-        <p>Email: navarezvanryan@example.com</p>
+        <p>Web Designer: Van Ryan Navarez</p>
+        <p>Email: 202310560@fit.edu.ph</p>
     </footer>
 </body>
 </html>
